@@ -1,0 +1,196 @@
+﻿body {
+}
+
+.desplaza {
+    margin-top: 90px;
+}
+
+.titulo {
+    width: 100%;
+    height: auto;
+    background-color: #044168;
+    text-align: center;
+}
+
+.parrafo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.texto {
+    margin-top: 30px;
+    font-size: 30px;
+    color: #044168;
+}
+
+.cuerpo {
+    display: flex;
+}
+
+    .cuerpo .contTabla {
+        width: 100%;
+        margin: 0 0 0 30px;
+    }
+
+    .cuerpo .contAgregar {
+        display: block;
+        width: 60%;
+        text-align: left;
+        margin: 0 40px 0 20px;
+       
+    }
+
+        .cuerpo .contAgregar .tituloParrafo {
+            margin: 0 0 12px 0;
+            padding: 0;
+            border: 0;
+            font-size: 20px;
+            color: #044168;
+        }
+
+        .cuerpo .contAgregar .divisiones {
+            display: flex;
+            padding-bottom: 10px;
+        }
+
+            .cuerpo .contAgregar .divisiones .lblBox {
+                width: 50%;
+                color: #044168;
+            }
+
+.cuerpo .contAgregar .divisiones .txtBox {
+    width: 100%;
+    
+}
+
+.linkboton {
+    text-decoration: none;
+    padding: 2px 5px 2px 5px;
+}
+
+.boton {
+    transition: .6s;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #044168;
+    background: white;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #044168;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    margin: 0 0 0 0;
+}
+
+.boton:hover {
+    background: #044168;
+    color: white
+}
+
+.bcentro {
+    margin: 0 10px 0 10px;
+}
+
+.bderecho {
+    margin: 0 0 0 10px;
+}
+
+.mGrid {
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+}
+
+.mGrid td {
+    padding: 2px;
+    border: solid 1px #c1c1c1;
+    color: #717171;
+}
+
+.mGrid th {
+    padding: 4px 2px;
+    color: #fff;
+    background: #424242 url(grd_head.png) repeat-x top;
+    border-left: solid 1px #525252;
+    font-size: 0.9em;
+}
+
+.mGrid .alt {
+    background: #fcfcfc url(grd_alt.png) repeat-x top;
+}
+
+.mGrid .pgr {
+    background: #424242 url(grd_pgr.png) repeat-x top;
+}
+
+.mGrid .pgr table {
+    margin: 5px 0;
+}
+
+.mGrid .pgr td {
+    border-width: 0;
+    padding: 0 6px;
+    border-left: solid 1px #666;
+    font-weight: bold;
+    color: #fff;
+    line-height: 12px;
+}
+
+.mGrid .pgr a {
+    color: #666;
+    text-decoration: none;
+}
+
+.mGrid .pgr a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.conterror{
+    display: flex;
+    width: 100%;
+
+}
+
+    .conterror .cuadroAlerta {
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        border-style: solid;
+        border-block-width: 3px;
+        border-radius: 5px;
+        border-color: #ff2f00dd;
+        background-color: #c1c1c1;
+        padding: 20px 25px 20px 25px;
+    }
+
+        .conterror .cuadroAlerta .lblerror {
+            width: 100%;
+            margin-bottom: 5px;
+
+        }
+
+.botonError {
+    transition: .6s;
+    width: 75%;
+    margin: 15px 0 0 0;
+    height: 30px;
+    border: 1px solid #044168;
+    background: #044168;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+    .botonError:hover {
+        background: white;
+        color: #044168;
+    }

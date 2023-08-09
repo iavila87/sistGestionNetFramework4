@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="SistemaIndumaqWeb.Main1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Pagina Principal</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="styles/mainMaster.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            
+            <div id="navbar">
+                <ul>
+                    <li><a href="Inicio.aspx">Inicio</a></li>
+                    <li><a href="Productos.aspx">Productos</a></li>
+                    <li><a href="Proveedores.aspx">Proveedores</a></li>
+                    <li><a href="Clientes.aspx">Clientes</a></li>
+                    <li><a href="Ventas.aspx">Ventas</a></li>
+                    <asp:Button ID="btnLogout" runat="server" OnClick="btnLogout_Click" Text="Logout" />
+                    <asp:Label ID="lblUser" runat="server" Text="Usuario:" ForeColor="White"></asp:Label>
+                    <asp:Label ID="lblUserValue" runat="server" Text="Usuario" ForeColor="White"></asp:Label>
+                    <asp:Label ID="lblRol" runat="server" Text="Rol:" ForeColor="White"></asp:Label>
+                    <asp:Label ID="lblRolValue" runat="server" Text="Rol" ForeColor="White"></asp:Label>
+                </ul>
+            </div>
+            
+            <asp:ContentPlaceHolder CssClass="contenedor" ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            
+            <div id="footer" >
+                <span > contacto@atsoft.com</span >
+                <span > Whatsapp 341-2525036</span >
+                <span > Derechos Reservados ATSoft - 2022</span >
+            </div >
+        </div>
+    </form>
+</body>
+</html>
